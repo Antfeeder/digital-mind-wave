@@ -15,11 +15,11 @@ C:/Users/Antfeeder/Documents/Projects/digital-mind-wave/DMW
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51186
+60627
 Successfully changed project path to: C:/Users/Antfeeder/Documents/Projects/digital-mind-wave/DMW
 C:/Users/Antfeeder/Documents/Projects/digital-mind-wave/DMW
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 36.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -35,143 +35,109 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56940
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002808 seconds.
+Registered in 0.002822 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.12 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.777 seconds
+- Completed reload, in  1.733 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004222 seconds.
+Registered in 0.003963 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in  0.916 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 92.8 MB.
-System memory in use after: 92.7 MB.
+System memory in use after: 92.8 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2513.
-Total: 2.189900 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.762900 ms  DeleteObjects: 0.129600 ms)
+Total: 2.163700 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.048300 ms MarkObjects: 1.739800 ms  DeleteObjects: 0.125300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Icons/Rectangle/cloud.png
-  artifactKey: Guid(dac2ddc8e4d93e046b0b7f370f62ab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/cloud.png using Guid(dac2ddc8e4d93e046b0b7f370f62ab4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3f74adf5c21cabd83eeab7ca010203') in 0.108517 seconds
-  Import took 0.111676 seconds .
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1a8ad0cfbd5d3342b962c50f056787') in 0.017087 seconds
+  Import took 0.020202 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Icons/Rectangle/angeal.png
-  artifactKey: Guid(dac060dc89e80fe4abdda5b9caf0e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/angeal.png using Guid(dac060dc89e80fe4abdda5b9caf0e5cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dad1b3e80e2bc3215232f2b1b4298d') in 0.015404 seconds
-  Import took 0.018242 seconds .
+  Time since last request: 15.050965 seconds.
+  path: Assets/Scenes/DMW.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DMW.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f873e9bd08fee2d18a11f0295cac7a') in 0.006816 seconds
+  Import took 0.010151 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Icons/Rectangle/aerith.png
-  artifactKey: Guid(6470dbd56872c514499ea1c027495fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/aerith.png using Guid(6470dbd56872c514499ea1c027495fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85393c82ee7ab52dd3af21bb1c56babb') in 0.019739 seconds
-  Import took 0.022549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Icons/Rectangle
-  artifactKey: Guid(8f22ee39667d1904ea3afda5809f54a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle using Guid(8f22ee39667d1904ea3afda5809f54a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2bd340dc07b21ed8b3b01f01a35755') in 0.006224 seconds
-  Import took 0.008845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Icons/Rectangle/sephiroth.png
-  artifactKey: Guid(364a425b937a10241b2fa36f6ceb8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/sephiroth.png using Guid(364a425b937a10241b2fa36f6ceb8aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0f7a4ddb6b4a211e3fadab915b0a44') in 0.019095 seconds
-  Import took 0.021838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Icons/Rectangle/genesis.png
-  artifactKey: Guid(271978a4e3b916a4b9dd55bf24139f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/genesis.png using Guid(271978a4e3b916a4b9dd55bf24139f2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a53d77019179e41c59f39290a1ba60e') in 0.014978 seconds
-  Import took 0.017835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Icons/Rectangle/tseng.png
-  artifactKey: Guid(bb5694f62ebcc764e8ada8b72a3b6f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/tseng.png using Guid(bb5694f62ebcc764e8ada8b72a3b6f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208bd281da54cb0080c415061ea31ac8') in 0.016580 seconds
-  Import took 0.019360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Icons/Rectangle/cissnei.png
-  artifactKey: Guid(8d98762ce90e7be4ea74668087b2838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/cissnei.png using Guid(8d98762ce90e7be4ea74668087b2838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe88bb1f63e6f18b59fd60b06ae1a67') in 0.014698 seconds
-  Import took 0.017511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Icons
-  artifactKey: Guid(09905d553343d2a4796e68972537183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons using Guid(09905d553343d2a4796e68972537183d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73513226977dc74be3f599216c34cd55') in 0.005912 seconds
-  Import took 0.008240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.029468 seconds.
-  path: Assets/Icons/Rectangle/cissnei.png
-  artifactKey: Guid(8d98762ce90e7be4ea74668087b2838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Icons/Rectangle/cissnei.png using Guid(8d98762ce90e7be4ea74668087b2838b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe88bb1f63e6f18b59fd60b06ae1a67') in 0.023596 seconds
-  Import took 0.026947 seconds .
+  Time since last request: 0.002869 seconds.
+  path: Assets/Scenes/DMW.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DMW.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70f873e9bd08fee2d18a11f0295cac7a') in 0.002825 seconds
+  Import took 0.005945 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004240 seconds.
+Registered in 0.004069 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.832 seconds
+- Completed reload, in  0.812 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.7 MB.
+System memory in use before: 92.8 MB.
+System memory in use after: 92.8 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2523.
-Total: 2.248600 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.159000 ms MarkObjects: 1.709400 ms  DeleteObjects: 0.111100 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2517.
+Total: 2.147100 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.052100 ms MarkObjects: 1.762100 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003830 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.8 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2521.
+Total: 2.104500 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.046500 ms MarkObjects: 1.712900 ms  DeleteObjects: 0.109300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
